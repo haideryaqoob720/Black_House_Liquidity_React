@@ -2,7 +2,7 @@
   background-color: #1e1e1e;
   width: 100%;
   height: 100vh;
-  overflow: hidden;
+  overflow-x: hidden;
   display: flex;
   font-family: "open sans";
   background-image: url("../Images/blockHouseBackground.png");
