@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Black_House_Liquidity_React/static/css/main.3edf27be.css",
+    "main.js": "/Black_House_Liquidity_React/static/js/main.126564b9.js",
+    "static/js/787.a7ece2d3.chunk.js": "/Black_House_Liquidity_React/static/js/787.a7ece2d3.chunk.js",
+    "static/media/blackHouseBackground.png": "/Black_House_Liquidity_React/static/media/blackHouseBackground.2a753fa1f879617e3760.png",
+    "static/media/liquidityBackground.png": "/Black_House_Liquidity_React/static/media/liquidityBackground.0f984e718f4cbd8db79b.png",
+    "index.html": "/Black_House_Liquidity_React/index.html",
+    "main.3edf27be.css.map": "/Black_House_Liquidity_React/static/css/main.3edf27be.css.map",
+    "main.126564b9.js.map": "/Black_House_Liquidity_React/static/js/main.126564b9.js.map",
+    "787.a7ece2d3.chunk.js.map": "/Black_House_Liquidity_React/static/js/787.a7ece2d3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3edf27be.css",
+    "static/js/main.126564b9.js"
+  ]
+}
