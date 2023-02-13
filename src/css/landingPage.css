@@ -1,0 +1,451 @@
+.landingPageMain {
+  width: 100%;
+  overflow-x: hidden;
+  height: 100vh;
+  background-color: #17181d;
+}
+.landingPageMainHeroSec {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../Images/landingPage/landingPageBackground.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.landingPageHeaderNav {
+  width: 100%;
+  height: 63px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  padding-top: 35px;
+}
+.landingPageHeaderNav h5 {
+  font-size: 16px;
+  line-height: 24px;
+  display: inline;
+  /* position: relative;
+    top: 25px; */
+  font-weight: bold;
+}
+.headerNavSecondItem {
+  margin-left: 49px;
+}
+.headerNavLogo {
+  width: 206px;
+  height: 40px;
+}
+
+.headerNavRightSide img {
+  position: relative;
+  right: 36px;
+  top: 2px;
+}
+.headerNavRightSide h5 {
+  color: #659beb;
+}
+.width80PercentCenter {
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+}
+.heroSectionLandingPageText {
+  width: 50%;
+}
+.heroSectionLandingPageText h1 {
+  margin-top: 212px;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 72px;
+  letter-spacing: -4px;
+}
+.heroSectionLandingPageText > h1 > span {
+  color: #659beb;
+  display: block;
+}
+.heroSectionLandingPageText > p {
+  margin-top: 72px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  width: 66%;
+}
+.heroSectionLandingPageText > button {
+  margin-top: 48px;
+  width: 236px;
+  height: 64px;
+  border: double 1.7px transparent;
+  border-radius: 6px;
+  background-image: linear-gradient(95.25deg, #17192a, #1b1f29),
+    linear-gradient(90deg, #131bd3, #6195eb);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+}
+.heroSectionLandingPageText > button:hover {
+  background-image: linear-gradient(95.25deg, #1b1f29, #17192a),
+    linear-gradient(90deg, #6195eb, #131bd3);
+  width: 246px;
+  height: 70px;
+  border: double 2px transparent;
+}
+.heroSectionLandingPageText > button > img {
+  margin-left: -10px;
+  margin-right: 15px;
+}
+/***************************************** landingPage Second Section **********************************/
+.landingUnlockSec {
+  height: auto;
+  width: 100%;
+  background-image: url("../Images/landingPage/aboutAssetsBackground.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 120px;
+}
+.innerLandingUnlcokSec {
+  display: flex;
+  justify-content: space-between;
+  size-adjust: 50%;
+  width: 100%;
+}
+.innerLandingUnlcokSec img {
+  margin-top: 44px;
+  width: 520px;
+  height: 520px;
+}
+.innerLandingUnlcokSec > div {
+  width: 50%;
+}
+.innerLandingUnlcokSec > div > h1 {
+  margin-top: 119px;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  width: 400px;
+}
+.colorLightBlue {
+  color: #659beb;
+}
+
+.innerLandingUnlcokSec > div > p {
+  margin-top: 48px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  width: 422px;
+}
+.innerLandingUnlcokSec2 h5 {
+  margin-top: 39.05px;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  margin-bottom: 64px;
+}
+.assetTiles {
+  display: flex;
+  justify-content: space-between;
+}
+.assetTiles > div {
+  background: linear-gradient(
+    281.38deg,
+    rgba(23, 24, 29, 0.12) -16.31%,
+    rgba(114, 120, 152, 0.12) 101.13%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(32px);
+  border-radius: 12px;
+  /* width: 312px; */
+  /* height: 307px; */
+  max-width: 23.47%;
+  min-height: 307px;
+  max-height: auto;
+  box-sizing: border-box;
+  padding: 32px;
+}
+.assetTiles > div > h3 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 58px;
+  text-align: right;
+  color: #f6af40;
+  transform: rotate(-90deg);
+  /* position: relative;
+  top: 90px;
+  right: 100px; */
+  position: absolute;
+  margin-left: -6px;
+  margin-top: -4px;
+}
+.assetTiles > div > h4 {
+  margin-top: 98px;
+  /* margin-top: 40px; */
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: normal;
+}
+.assetTiles > div > p {
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 24px;
+}
+/***************************************** landingPage Third Section **********************************/
+.landingThirdSec {
+  height: auto;
+  width: 100%;
+  background-image: url("../Images/landingPage/3rdSectionBackground.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 120px;
+}
+.thirdSecInnerTopRow > div {
+  width: 50%;
+}
+.thirdSecInnerTopRow {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 120px;
+}
+.thirdSecInnerTopRow > div > h6 {
+  font-size: 14px;
+  line-height: 20px;
+  color: #659beb;
+}
+.thirdSecInnerTopRow > div > h1 {
+  margin-top: 16px;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #ffffff;
+  width: 415px;
+}
+.thirdSecInnerTopRow > div > p {
+  margin-top: 48px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  width: 369px;
+}
+.thirdSecFirstRowTile {
+  display: flex;
+  justify-content: space-between;
+}
+.thirdSecFirstRowTile > div {
+  background: linear-gradient(
+    281.38deg,
+    rgba(23, 24, 29, 0.12) -16.31%,
+    rgba(101, 155, 235, 0.12) 101.13%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(32px);
+  border-radius: 12px;
+  /* width: 312px; */
+  /* height: 428px; */
+  width: 46.8%;
+  min-height: 428px;
+  max-height: auto;
+}
+.thirdSecFirstRowTileContent {
+  margin: 32px;
+}
+.thirdSecFirstRowTileContent img {
+  width: 100px;
+  height: 94.99px;
+}
+.thirdSecFirstRowTileContent h1 {
+  margin-top: 32px;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -1px;
+}
+.thirdSecFirstRowTileContent p {
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.thirdSecInnerSecRow h1 {
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  margin-bottom: 40px;
+  margin-top: 120px;
+}
+
+.thirdSecFirstRowTileSec {
+  background: linear-gradient(
+      273.34deg,
+      rgba(23, 24, 29, 0.12) -17.8%,
+      rgba(26, 26, 28, 0.006) -17.8%,
+      rgba(246, 175, 64, 0.12) 98.96%
+    ),
+    linear-gradient(
+      281.38deg,
+      rgba(23, 24, 29, 0.12) -16.31%,
+      rgba(114, 120, 152, 0.12) 101.13%
+    ) !important;
+}
+.thirdSecInnerSecRowTiles {
+  background: linear-gradient(
+    281.38deg,
+    rgba(23, 24, 29, 0.12) -16.31%,
+    rgba(114, 120, 152, 0.12) 101.13%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(32px);
+  border-radius: 12px;
+  /* width: 424px; */
+  /* height: 176px; */
+  width: 93.4%;
+  min-height: 176px;
+  max-height: auto;
+  margin-top: 24px;
+}
+.thirdSecInnerSecRowTiles > .row {
+  padding: 32px;
+}
+.thirdSecInnerSecRowTiles > .row > .col-8 > h4 {
+  margin-bottom: 16px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+}
+.thirdSecInnerSecRowTiles > .row > .col-8 > p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+.thirdSecInnerSecRowTiles > .row > .col-4 > img {
+  /* width: 96px; */
+  /* height: 96px; */
+  /* width: 96px; */
+  width: 74%;
+  height: auto;
+  margin-left: 12px;
+  margin-top: 6px;
+}
+.thirdSecFifthIcon {
+  width: 85% !important;
+  height: auto;
+}
+/***************************************** landingPage Fourth Section **********************************/
+.landingFourthSec {
+  height: auto;
+  width: 100%;
+  padding-bottom: 120px;
+}
+.fourthSecInnerSecRowTiles {
+  width: 93.4%;
+  height: 460px;
+  padding-bottom: 20px;
+  /* min-height: 460px;
+  max-height: auto; */
+}
+.fourthSecTilesImgBox {
+  width: 96.5%;
+  margin: 0 auto;
+  margin-top: 8px;
+}
+.fourthSecTilesImgBox img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.fourthSecInnerTile {
+  margin: 32px;
+}
+.fourthSecInnerTile > h3 {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+}
+.fourthSecInnerTile > p {
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 24px;
+}
+/***************************************** landingPage Fifth Section **********************************/
+.landingFifthSec {
+  height: auto;
+  width: 100%;
+  background-image: url("../Images/landingPage/fifthSecBackground.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 168px;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+}
+.fifthSecInnerContent h1 {
+  padding-top: 168px;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 72px;
+  letter-spacing: -4px;
+}
+.fifthSecInnerContent > center > .heroSectionLandingPageText {
+  margin-top: 17px;
+}
+.fifthSecInnerContent > center > .heroSectionLandingPageText > button {
+  width: 145px;
+  height: 48px;
+  margin-left: 24px;
+  margin-right: 24px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+.fifthSecInnerContentSecBtn {
+  background: rgba(255, 255, 255, 0.06) !important;
+}
+/* {**************************************** landingPage Sixth Section____FOOTER *********************************} */
+.landingFooter {
+  height: auto;
+}
+.landingFooter > .landingPageHeaderNav {
+  border-bottom: none;
+}
+.landingFooter > .landingPageHeaderNav > img {
+  margin-top: -4px;
+}
+.landingFooter p {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 5px;
+}
+.landingFooter p span {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footerSocialIcons {
+  margin-top: 10px;
+}
+.footerSocialIcons img {
+  width: 19.99px;
+  height: 16.26px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* MEDIA QUIERYS */
+@media screen and (min-width: 1870px) {
+  .fourthSecInnerSecRowTiles {
+    height: 500px;
+    padding-bottom: 20px;
+  }
+}
