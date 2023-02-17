@@ -1,0 +1,188 @@
+.structuredSearchRow {
+  width: 98.2%;
+  margin: 0 auto !important;
+}
+.structureMainCOnt > h1 {
+  margin-left: 15px;
+}
+.structuredSearchRow > .col-9 {
+  -ms-flex: 0 0 70%;
+  flex: 0 0 70%;
+  max-width: 70%;
+}
+.structuredSearchRow > .col-1 {
+  margin-left: 25px;
+  -ms-flex: 0 0 10%;
+  flex: 0 0 10%;
+  max-width: 10%;
+}
+.structuredSearchRow > .col-2 {
+  margin-left: 5px;
+  -ms-flex: 0 0 17%;
+  flex: 0 0 17%;
+  max-width: 17%;
+}
+
+.rightSearchBoxStructured {
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 6px;
+  color: white;
+  height: 31px;
+  margin-top: 27px !important;
+  padding-top: 6px;
+  padding-left: 16px;
+  font-size: 14px;
+  font-weight: bold;
+  width: 80%;
+  text-align: start !important;
+}
+.rightSearchBoxStructured img {
+  position: relative;
+  right: -12px;
+  top: 3px;
+}
+
+/* structured TIles */
+.structuredTilesSEC {
+  width: 100%;
+  margin-top: 9px;
+}
+.structuredTilesSEC > .row {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.structuredTile {
+  /* width: 332px !important;
+  height: 234px !important; */
+  width: 93.4%;
+  height: 234px;
+  min-height: 234px !important;
+  max-height: auto;
+  margin-top: 24px !important;
+  margin: 0 auto;
+}
+.structuredTile > div {
+  padding: 16px;
+  color: white;
+}
+.structuredTileFirstSec h2 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  padding-bottom: 12px;
+}
+.structuredTileFirstSec button:first-child {
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 6px 2px 2px 6px;
+  width: 74px;
+  height: 24px;
+  border: none;
+  font-weight: bold !important;
+  font-size: 13px;
+  line-height: 16px;
+  color: white;
+}
+.structuredTileFirstSec button:last-child {
+  background: #659beb;
+  border-radius: 2px 6px 6px 2px;
+  width: 34px;
+  height: 24px;
+  border: none;
+  font-weight: bold !important;
+  font-size: 13px;
+  line-height: 16px;
+  color: white;
+  margin-left: 4px;
+}
+.structuredTileSecSec p {
+  padding-top: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.structuredTileSecSec h6 {
+  padding-bottom: 16px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.structuredTileSecSecTokensBox {
+  padding-top: 14px;
+}
+.paddingTop16Px {
+  padding-top: 16px;
+}
+.progressSection {
+  height: 6px;
+  width: 100%;
+  background: rgba(9, 13, 20, 0.48);
+  border-radius: 2px;
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+.progressCompletedLine {
+  width: 48%;
+  height: 6px;
+  background: #ffffff;
+  border-radius: 2px;
+}
+@media screen and (max-width: 1620px) {
+  .structuredSearchRow > .col-9 {
+    -ms-flex: 0 0 69%;
+    flex: 0 0 69%;
+    max-width: 69%;
+  }
+  .structuredSearchRow > .col-1 {
+    margin-left: 0px;
+    -ms-flex: 0 0 11%;
+    flex: 0 0 11%;
+    max-width: 11%;
+    position: relative;
+    left: 7px;
+  }
+  .structuredSearchRow > .col-2 {
+    margin-left: 0px;
+    -ms-flex: 0 0 19%;
+    flex: 0 0 19%;
+    max-width: 19%;
+  }
+}
+
+@media screen and (max-width: 1470px) {
+  .structuredSearchRow > .col-9 {
+    -ms-flex: 0 0 65%;
+    flex: 0 0 65%;
+    max-width: 65%;
+  }
+  .structuredSearchRow > .col-1 {
+    -ms-flex: 0 0 12%;
+    flex: 0 0 12%;
+    max-width: 12%;
+    left: 9px;
+  }
+  .structuredSearchRow > .col-2 {
+    -ms-flex: 0 0 22.5%;
+    flex: 0 0 22.5%;
+    max-width: 22.5%;
+  }
+}
+
+@media screen and (max-width: 1380px) {
+  .structuredSearchRow > .col-9 {
+    -ms-flex: 0 0 62%;
+    flex: 0 0 62%;
+    max-width: 62%;
+  }
+  .structuredSearchRow > .col-1 {
+    -ms-flex: 0 0 15%;
+    flex: 0 0 15%;
+    max-width: 15%;
+  }
+  .structuredSearchRow > .col-2 {
+    -ms-flex: 0 0 23%;
+    flex: 0 0 23%;
+    max-width: 23%;
+  }
+}

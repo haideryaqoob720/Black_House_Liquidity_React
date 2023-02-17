@@ -1,0 +1,105 @@
+/***************************************** landingPage First Section **********************************/
+.landingPageMain {
+    width: 100%;
+    overflow-x: hidden;
+    height: 100vh;
+    background-color: #17181d;
+  }
+  .landingPageMainHeroSec {
+    /* min-height: 100vh;
+    max-height: auto; */
+    height: 100vh;
+    width: 100%;
+    background-image: url("../../Images/landingPage/landingPageBackground.png");
+    background-size: 100% 100vh;
+    /* background-size: cover; */
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+  .landingPageHeaderNav {
+    width: 100%;
+    height: 63px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    padding-top: 35px;
+  }
+  .landingPageHeaderNav h5 {
+    font-size: 16px;
+    line-height: 24px;
+    display: inline;
+    /* position: relative;
+      top: 25px; */
+    font-weight: bold;
+  }
+  .headerNavSecondItem {
+    margin-left: 49px;
+  }
+  .headerNavLogo {
+    width: 206px;
+    height: 40px;
+  }
+  
+  .headerNavRightSide img {
+    position: relative;
+    right: 36px;
+    top: 2px;
+  }
+  .headerNavRightSide h5 {
+    color: #659beb;
+  }
+  .width80PercentCenter {
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+  }
+  .heroSectionLandingPageText {
+    width: 50%;
+  }
+  .heroSectionLandingPageText h1 {
+    margin-top: 212px;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: -4px;
+  }
+  .heroSectionLandingPageText > h1 > span {
+    color: #659beb;
+    display: block;
+  }
+  .heroSectionLandingPageText > p {
+    margin-top: 72px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    width: 66%;
+  }
+  .heroSectionLandingPageText > button {
+    margin-top: 48px;
+    width: 236px;
+    height: 64px;
+    border: double 1.7px transparent;
+    border-radius: 6px;
+    background-image: linear-gradient(95.25deg, #17192a, #1b1f29),
+      linear-gradient(90deg, #131bd3, #6195eb);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+  }
+  .heroSectionLandingPageText > button:hover {
+    background-image: linear-gradient(95.25deg, #1b1f29, #17192a),
+      linear-gradient(90deg, #6195eb, #131bd3);
+    width: 246px;
+    height: 70px;
+    border: double 2px transparent;
+  }
+  .heroSectionLandingPageText > button > img {
+    margin-left: -10px;
+    margin-right: 15px;
+  }

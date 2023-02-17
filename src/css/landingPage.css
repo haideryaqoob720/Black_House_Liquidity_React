@@ -1,0 +1,27 @@
+/* MEDIA QUIERYS */
+@media screen and (min-width: 1870px) {
+  .fourthSecInnerSecRowTiles {
+    height: 500px;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-height: 870px) {
+  .heroSectionLandingPageText h1 {
+    margin-top: 120px !important;
+  }
+}
+
+@media screen and (max-height: 780px) {
+  .heroSectionLandingPageText h1 {
+    margin-top: 70px !important;
+  }
+}
+
+@media screen and (max-height: 710px) {
+  .heroSectionLandingPageText h1 {
+    margin-top: 40px !important;
+  }
+  .landingPageMainHeroSec {
+    height: 120vh !important;
+  }
+}
